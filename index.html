@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navigation">
+            <a href="#about" class="navigation_item">About</a>
+            <a href="#project" class="navigation_item">Project</a>
+            <a href="#contact" class="navigation_item">Contact</a>
+        </div>
+        <div class="heading">
+            <div class="heading_background">
+                <img src="./imgs/grid-pattern.png" alt=""
+                    class="heading_background-grid">
+                <img src="./imgs/spotlight.png" alt=""
+                    class="heading_background-spotlight spotlight">
+            </div>
+            <div class="heading_container">
+                <div class="heading_text-group">
+                    <p class="heading_text">Xin chào,</p>
+                    <h1 class="heading_text-h1">I'm <label
+                            class="heading_text-name">La Thien Tu</label></h1>
+                    <h1 class="typing_text">And I'm a <span
+                            style="margin-left: 10px;"
+                            class="typing_position"></span></h1>
+                    <hr style="margin: 10px 0;" width="300px" color="white">
+                    <p class="heading_text-row">This project only serves
+                        personal use in studying and working, ensuring no
+                        monetization from the project💖.</p>
+                    <p class="heading_text-row">This project was made by La
+                        Thien Tu personally and has sketches from 1 number of
+                        other sample projects (Modern Minimal Portfolio
+                        by@javascriptmastery)📌</p>
+                    <div class="heading_button-list">
+                        <a href="#" class="heading_button">Download MyCV</a>
+                    </div>
+                </div>
+                <div class="heading_img-group">
+                    <img src="./imgs/avatar.jpeg" alt="" class="heading_img">
+                    <div class="heading_img-star"></div>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="about_background-div">
+                <img src="./imgs/spotlight.png" alt="" class="about_background spotlight">
+            </div>
+            <div class="about_images">
+                <div class="about_images-group">
+                    <div class="about_image-item"
+                        style="--index:2;--rotate:-10deg">
+                        <img src="./imgs/person/person_left.png" alt=""
+                            class="about_image">
+                    </div>
+                    <div class="about_image-item active"
+                        style="--index:3;--rotate:0deg">
+                        <img src="./imgs/person/person_center.png" alt=""
+                            class="about_image">
+                    </div>
+                    <div class="about_image-item"
+                        style="--index:1;--rotate:10deg">
+                        <img src="./imgs/person/person_right.png" alt=""
+                            class="about_image">
+                    </div>
+                </div>
+                <a href="https://facebook.com/lucaspreset208" target="_blank"
+                    class="about_images-footer"><ion-icon
+                        name="arrow-redo"></ion-icon> See more photos on my
+                    Facebook</a>
+            </div>
+            <div class="about_container">
+                <div class="about_container-header">
+                    <h1 class="about_container-header"
+                        style="display: flex;align-items: center;"><ion-icon
+                            name="accessibility"></ion-icon>About me</h1>
+                </div>
+                <div class="about_container-body">
+                    <div class="about_tabs-list">
+                        <h1 class="about_container-tabs active"><ion-icon
+                                name="golf"></ion-icon>Education</h1>
+                        <h1 class="about_container-tabs"><ion-icon
+                                name="sparkles"></ion-icon>Skills</h1>
+                        <h1 class="about_container-tabs"><ion-icon
+                                name="document-text"></ion-icon>Description</h1>
+                    </div>
+                    <hr width="100%" color="gray" style="margin: 10px 0;">
+                    <div class="about_panes-list">
+                        <div class="about_pane-item active">
+                            <h1 class="about_pane-title">Let's start with
+                                2019-2023</h1>
+                            <p class="about_pane-text">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Numquam illum
+                                et sapiente dignissimos non inventore, at, ipsa
+                                est aliquid, quidem omnis quisquam error laborum
+                                recusandae eveniet minus itaque dolorem dolores?
+                            </p>
+                            <h1 class="about_pane-title">When I was 15</h1>
+                            <p class="about_pane-text">I completed my junior
+                                high school course at <b>Nguyen Duc Canh</b>
+                                School and received a certificate. I graduated
+                                with <b>good</b> grades and decided to choose
+                                HOTEC for vocational training in 2 years.</p>
+                        </div>
+                        <div class="about_pane-item">
+                            <h1 class="about_pane-title">Web Skill</h1>
+                            <ul>
+                                <li>
+                                    <p class="about_pane-text">HTML / CSS /
+                                        JAVASCRIPT / EJS</p>
+                                </li>
+                                <li>
+                                    <p class="about_pane-text">Node.JS / React
+                                        Native</p>
+                                </li>
+                                <li>
+                                    <p class="about_pane-text">SQLite3 / MySQL
+                                    </p>
+                                </li>
+                            </ul>
+                            <h1 class="about_pane-title">Android Skill (Basic)
+                            </h1>
+                            <ul>
+                                <li>
+                                    <p class="about_pane-text">Java JVM / XML
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="about_pane-text">SQLite3</p>
+                                </li>
+                            </ul>
+                            <h1 class="about_pane-title">Another Skill</h1>
+                            <ul>
+                                <li>
+                                    <p class="about_pane-text">C/C++</p>
+                                </li>
+                                <li>
+                                    <p class="about_pane-text">Python for
+                                        Beginner</p>
+                                </li>
+                                <li>
+                                    <p class="about_pane-text">Team work</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="about_pane-item">
+                            <h1 class="about_pane-title">Hello 3,</h1>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Id error assumenda provident totam odit odio
+                            ab eveniet dolore, quae minima sapiente deserunt
+                            consequuntur adipisci, voluptas corrupti enim
+                            cupiditate, recusandae excepturi.
+                            Aspernatur fuga quos deleniti sint ullam placeat
+                            assumenda quidem laborum aliquam, nisi ratione quae
+                            voluptates dolorem iusto odit, suscipit, nemo
+                            recusandae. Neque consequatur animi, vel error
+                            explicabo quo laboriosam quam!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="project">
+            <h1 class="project_title">What projects <span>have I done?</span>
+            </h1>
+            <p class="project_subtitle">All project below is demo and I put it
+                because it make page have more information:)</p>
+            <div class="project_grid">
+                <div class="project_item-wrapper">
+                    <div class="project_item-background">
+                        <div class="project_item-star" style="--color:#cbacf9">
+                        </div>
+                    </div>
+                    <div class="project_item-container">
+                        <div class="project_item-image-wrapper">
+                            <img src="./imgs/earth_project.png" alt=""
+                                class="project_item-image">
+                        </div>
+                        <div class="project_item-description">
+                            <h1 class="project_item-title">3D Solar System
+                                Planets to Explore</h1>
+                            <p class="project_item-details">Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Alias,
+                                vero excepturi rerum expedita cum magnam vel
+                                unde dignissimos quis accusamus au!</p>
+                        </div>
+                        <div class="project_item-footer">
+                            <div class="project_item-languages">
+                                <div class="project_item-language-wrapper">
+                                    <img src="./imgs/languages/html.png" alt=""
+                                        class="project_item-language">
+                                </div>
+                                <div class="project_item-language-wrapper">
+                                    <img src="./imgs/languages/css.png" alt=""
+                                        class="project_item-language">
+                                </div>
+                                <div class="project_item-language-wrapper">
+                                    <img src="./imgs/languages/javascript.png"
+                                        alt="" class="project_item-language">
+                                </div>
+                            </div>
+                            <a href="#" target="_blank"
+                                class="project_item-link"><ion-icon
+                                    name="eye-outline"></ion-icon>Preview is
+                                here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_item-wrapper">
+                    <div class="project_item-background">
+                        <div class="project_item-star" style="--color:#cbacf9">
+                        </div>
+                    </div>
+                    <div class="project_item-container">
+                        <div class="project_item-image-wrapper">
+                            <img src="./imgs/earth_project.png" alt=""
+                                class="project_item-image">
+                        </div>
+                        <div class="project_item-description">
+                            <h1 class="project_item-title">3D Solar System
+                                Planets to Explore</h1>
+                            <p class="project_item-details">Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Alias,
+                                vero excepturi rerum expedita cum magnam vel
+                                unde dignissimos quis accusamus au!</p>
+                        </div>
+                        <div class="project_item-footer">
+                            <div class="project_item-languages">
+                                <div class="project_item-language-wrapper">
+                                    <img src="./imgs/languages/html.png" alt=""
+                                        class="project_item-language">
+                                </div>
+                                <div class="project_item-language-wrapper">
+                                    <img src="./imgs/languages/css.png" alt=""
+                                        class="project_item-language">
+                                </div>
+                                <div class="project_item-language-wrapper">
+                                    <img src="./imgs/languages/javascript.png"
+                                        alt="" class="project_item-language">
+                                </div>
+                            </div>
+                            <a href="#" target="_blank"
+                                class="project_item-link"><ion-icon
+                                    name="eye-outline"></ion-icon>Preview is
+                                here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_item-wrapper">
+                    <div class="project_item-background">
+                        <div class="project_item-star" style="--color:#cbacf9">
+                        </div>
+                    </div>
+                    <div class="project_item-container">
+                        <div class="project_item-image-wrapper">
+                            <img src="./imgs/earth_project.png" alt=""
+                                class="project_item-image">
+                        </div>
+                        <div class="project_item-description">
+                            <h1 class="project_item-title">3D Solar System
+                                Planets to Explore</h1>
+                            <p class="project_item-details">Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Alias,
+                                vero excepturi rerum expedita cum magnam vel
+                                unde dignissimos quis accusamus au!</p>
+                        </div>
+                        <div class="project_item-footer">
+                            <div class="project_item-languages">
+                                <div class="project_item-language-wrapper">
+                                    <img src="./imgs/languages/html.png" alt=""
+                                        class="project_item-language">
+                                </div>
+                                <div class="project_item-language-wrapper">
+                                    <img src="./imgs/languages/css.png" alt=""
+                                        class="project_item-language">
+                                </div>
+                                <div class="project_item-language-wrapper">
+                                    <img src="./imgs/languages/javascript.png"
+                                        alt="" class="project_item-language">
+                                </div>
+                            </div>
+                            <a href="#" target="_blank"
+                                class="project_item-link"><ion-icon
+                                    name="eye-outline"></ion-icon>Preview is
+                                here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_item-wrapper">
+                    <div class="project_item-background">
+                        <div class="project_item-star" style="--color:#cbacf9">
+                        </div>
+                    </div>
+                    <div class="project_item-container">
+                        <div class="project_item-image-wrapper">
+                            <img src="./imgs/earth_project.png" alt=""
+                                class="project_item-image">
+                        </div>
+                        <div class="project_item-description">
+                            <h1 class="project_item-title">3D Solar System
+                                Planets to Explore</h1>
+                            <p class="project_item-details">Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Alias,
+                                vero excepturi rerum expedita cum magnam vel
+                                unde dignissimos quis accusamus au!</p>
+                        </div>
+                        <div class="project_item-footer">
+                            <div class="project_item-languages">
+                                <div class="project_item-language-wrapper">
+                                    <img src="./imgs/languages/html.png" alt=""
+                                        class="project_item-language">
+                                </div>
+                                <div class="project_item-language-wrapper">
+                                    <img src="./imgs/languages/css.png" alt=""
+                                        class="project_item-language">
+                                </div>
+                                <div class="project_item-language-wrapper">
+                                    <img src="./imgs/languages/javascript.png"
+                                        alt="" class="project_item-language">
+                                </div>
+                            </div>
+                            <a href="#" target="_blank"
+                                class="project_item-link"><ion-icon
+                                    name="eye-outline"></ion-icon>Preview is
+                                here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="contact_background">
+                <div class="contact_background-wrapper">
+                    <img src="./imgs/earth.png" alt=""
+                        class="contact_background-earth">
+                </div>
+            </div>
+            <div class="contact_container">
+                <div class="contact_left">
+                    <div class="contact_left-wrapper">
+                        <div class="contact_left-form">
+                            <img src="./imgs/astronaut.png" alt=""
+                                class="contact_left-img">
+                            <h1 class="contact_left-title">Write and send a
+                                message
+                                in
+                                there ⚡</h1>
+                            <p class="contact_left-subtitle">This work like a
+                                email
+                                but
+                                it just send all message to a one mail have
+                                config
+                                before</p>
+                            <hr width="50%" color="white"
+                                style="border-radius: 5px; margin: 10px 0;">
+                            <div class="contact_input-list">
+                                <div class="contact_input-item">
+                                    <input name="mail" type="email"
+                                        class="contact_input" placeholder=" ">
+                                    <label class="contact_input-label">Your
+                                        E-Mail</label>
+                                </div>
+                                <div class="contact_input-item">
+                                    <input name="subject" type="text"
+                                        class="contact_input" placeholder=" ">
+                                    <label class="contact_input-label">Enter
+                                        subject</label>
+                                </div>
+                                <div class="contact_input-item">
+                                    <input name="body" type="text"
+                                        class="contact_input" placeholder=" ">
+                                    <label class="contact_input-label">Enter
+                                        message</label>
+                                </div>
+                                <button type="submit"><ion-icon
+                                        name="send"></ion-icon>Send it</button>
+                            </div>
+                        </div>
+                        <div class="contact_left-animate">
+                            <l-waveform size="45" stroke="3.5" speed="1"
+                                color="white" class="contact_left-load"></l-waveform>
+                            <ion-icon name="checkmark-circle" class="check_icon"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_right">
+                    <div class="contact_right-wrapper">
+                        <h1 class="contact_right-title">If you read to there,
+                            Let's
+                            connect with me🎉</h1>
+                        <p class="contact_right-details">Lorem ipsum dolor sit
+                            amet
+                            consectetur adipisicing elit. Quod esse tempora
+                            iusto
+                            voluptate adipisci aperiam ad. Ipsum molestias
+                            architecto, autem, voluptatem harum ab itaque
+                            incidunt
+                            illum saepe, temporibus perferendis corporis!</p>
+                        <p class="contact_right-details">Lorem ipsum dolor sit
+                            amet
+                            consectetur adipisicing elit. Quod esse tempora
+                            iusto
+                            voluptate adipisci aperiam ad. Ipsum molestias
+                            architecto, autem, voluptatem harum ab itaque
+                            incidunt
+                            illum saepe, temporibus perferendis corporis!</p>
+                        <div class="contact_social-group">
+                            <a href="https://facebook.com/lucaspreset208"
+                                target="_blank" class="contact_social-item">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                            <a href="https://github.com/IAMLATHIENTU"
+                                target="_blank" class="contact_social-item">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <h1 class="footer_title">Oh, sorry i forgot to do footer :)</h1>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        const reveals = [{
+            class: '.heading_container',
+            delay: 200
+        }, {
+            class: '.about_images',
+            delay: 200
+        }, {
+            class: '.about_container',
+            delay: 200
+        }, {
+            class: '.project_title',
+            delay: 200
+        }, {
+            class: '.project_subtitle',
+            delay: 200
+        }, {
+            class: '.project_item-wrapper',
+            delay: 200
+        }, {
+            class: '.contact',
+            delay: 200
+        }]
+        var typed = new Typed(".typing_position", {
+            strings: ["Web Developer", "Designer",
+                "Intermediate Trading"
+            ],
+            typeSpeed: 100,
+            backSpeed: 20,
+            loop: true
+        })
+        const headingImageGroup = document.querySelector('.heading_img-group')
+        const headingImageStar = document.querySelector('.heading_img-star')
+        for (let index = 0; index < Math.floor(Math.random() * 999) +
+            100; index++) {
+            const cloneStar = headingImageStar.cloneNode()
+            cloneStar.style.top = (Math.floor(Math.random() * 100) + 1) + '%'
+            cloneStar.style.left = (Math.floor(Math.random() * 100) + 1) + '%'
+            cloneStar.style.scale = Math.random() + 1
+            cloneStar.style.opacity = Math.random()
+            headingImageGroup.appendChild(cloneStar)
+        }
+        ScrollReveal({
+            reset: false,
+            distance: '60px',
+            duration: 1500,
+            delay: 400
+        });
+        reveals.forEach(revealItem => {
+            ScrollReveal().reveal(revealItem.class, {
+                delay: revealItem.delay
+            })
+        })
+    </script>
+    <script src="./js/index.js"></script>
+    <script type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+    <script nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/waveform.js"></script>
+</body>
+</html>
